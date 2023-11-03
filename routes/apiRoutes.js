@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
-const userRoutes = require("./userRoutes");
+const employerRoutes = require("./employerRoutes");
 
-app.use("/users", userRoutes);
+app.use("/employers", employerRoutes);
 
 module.exports = app;
